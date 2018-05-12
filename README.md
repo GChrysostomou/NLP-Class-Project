@@ -6,3 +6,5 @@ the files it required to execute. To obtain the results please run the following
 command in the directory of the run.py file:
 
 python run.py 
+
+Results are displayed in under 10 seconds. 
