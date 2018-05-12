@@ -20,13 +20,15 @@ the development set for Extremely Randomised Trees:
 **In Line 3**
 from utils.baseline import Baseline 
 -> to ->  
+
 from utils.Development.baseline_extra import Baseline
 
 to load the development set for the ExtraTreesClassifier
 
-**In Line 12**\\
+**In Line 12**
 Baseline(language) 
 -> to -> 
+
 Baseline(language, data.trainset)
 
 to load properly the data
@@ -36,6 +38,7 @@ to load properly the data
 **In Line 10**
 devset_path = "datasets/{}/{}_Test.tsv".format(language, language.capitalize())
 -> to ->
+
 devset_path = "datasets/{}/{}_Dev.tsv".format(language, language.capitalize()) 
 
 to change to the development set.
